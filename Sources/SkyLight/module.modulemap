@@ -1,0 +1,6 @@
+module SkyLight [system] [extern_c] {
+    requires macos
+    header "SkyLight.h"
+    link framework "/System/Library/PrivateFrameworks/SkyLight.framework"
+    export *
+}
